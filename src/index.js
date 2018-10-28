@@ -68,8 +68,8 @@ class App extends React.Component {
             <div id="quote-wrapper">
                 <div id="quote-box">
                     <div id="quote-container">
-                        <span id="quote-text">"{this.state.quoteText}"</span>
-                        <span id="quote-author">{this.state.quoteAuthor}</span>
+                        <span id="text">"{this.state.quoteText}"</span>
+                        <span id="author">{this.state.quoteAuthor}</span>
                     </div>
                     <div id="button-container">
                         <a href={this.state.twitterHREF} id="tweet-quote">Tweet this quote</a>
